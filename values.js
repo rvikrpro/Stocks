@@ -50,7 +50,7 @@ function getPositionobject1(objectid) {
 function func(){
   //get user text
       var x=document.getElementById("search").value;
-      x.toLowerCase();
+      x=x.toLowerCase();
       x = x.replace(/[ ,./!@\\%$*&#(){}[\]+=-?<>]/g, "");
 //Check if location enabled
       if(!a)
