@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+  <title>ShopStock tracker</title>
+ </head>
+ <body>
+  <header class="header">
+   <div class="imagediv" onclick="window.location.reload();" style="cursor:pointer;">
+      <img src="./images/logo.png" style="height:auto;max-width:200px;" alt="logo">
+   </div><br>
+   <p class="iod">Items on the go...</p>
+  </header>
+  <div class="bigmain">
+   <div class="pq">
+    <form class="form_">
+      <input type="text" id="search" size="10" required>
+      </form>
+      <button id="submit" onclick="func()" disabled>
+      <img src="./images/search.png" height="25px"width="25px"> 
+      </button></div><br>
+      <div class="pqr">
+      <button id="location" onclick="getPositionobject1('first')">Location
+      </button>
+      <button id="loca" onclick="window.location.reload()">Reload
+      </button></div>
+  </div>
+  <script src="database.js">
+   </script>
+  <script src="values.js" >
+   </script>
+  <div  id="demo">
+   <div id="demo0" class="de" style="border:2px solid black">
+   </div>
+   <div id="demo1" class="de" style="border:2px solid black">
+   </div>
+   <div id="demo2" class="de" style="border:2px solid black">
+   </div>
+   <div id="demo3" class="de" style="border:2px solid black">
+   </div>
+   <div id="demo4" class="de" style="border:2px solid black">
+   </div>
+  </div>
+  <div>
+   <br><br><br><br><br>
+   </div>
+  <footer class="footdiv">
+   <a class="links1" href="contact.html" target="_self" style="right:290px;bottom:10px">Contact</a>
+   <a class="links1" href="terms.html" target="_self" style="right:150px;bottom:10px">Terms of Service</a>
+   <a class="links1" href="privacy.html" target="_self" style="right:30px;bottom:10px">Privacy Policy</a>
+   
+  </footer>
+ 
+ </body>
+</html>
