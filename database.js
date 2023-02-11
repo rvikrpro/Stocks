@@ -1,11 +1,11 @@
       //Database
-      var coke = "<img height='25px' width='50px' src='./images/coke.png' />";
-      var pepsi = "<img height='25px' width='50px' src='./images/pepsi.png' />";
-      var water="<img height='25px' width='50px' src='./images/water.png' />";
-      var frooti="<img height='25px' width='50px' src='./images/frooti.png' />";
-      var SevenUp="<img height='25px' width='50px' src='./images/7up.png' />";
-      var maaza="<img height='25px' width='50px' src='./images/maaza.png' />";
-      var sprite="<img height='25px' width='50px' src='./images/sprite.png' />";
+      var coke = "<img height='200px' width='200px' src='./images/coke.png' />";
+      var pepsi = "<img height='200px' width='200px' src='./images/pepsi.png' />";
+      var water="<img height='200px' width='200px' src='./images/water.png' />";
+      var frooti="<img height='200px' width='200px' src='./images/frooti.png' />";
+      var SevenUp="<img height='200px' width='200px' src='./images/7up.png' />";
+      var maaza="<img height='200px' width='200px' src='./images/maaza.png' />";
+      var sprite="<img height='200px' width='200px' src='./images/sprite.png' />";
 
       shops=[
         {id:0,data:{
